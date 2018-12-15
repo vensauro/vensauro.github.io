@@ -3,16 +3,16 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-	var myName = prompt('Please enter your name.');
+	var myName = prompt('Por favor, entre com seu nome(feche a porta dps)');
 	localStorage.setItem('name', myName);
-	myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+	myHeading.innerHTML = 'Você é uma pessoa muitooo legal ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+  myHeading.innerHTML = 'Você é uma pessoa muitooo legal ' + storedName;
 }
 
 myButton.onclick = function() {
