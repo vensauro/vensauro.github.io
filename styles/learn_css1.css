@@ -1,0 +1,18 @@
+h1{
+    color: aqua;
+    font-size: 180%;
+}
+#intro{ /*para id, só pode ter um id*/
+    color: blueviolet;
+    background-color: black;
+}
+.first{ /*para classe, pode ter varios elementos com a mesma classe*/
+    font-size: 200%;
+}
+
+#intro .first em { 
+    /*Aqui, só vai pegar o elemento 'em' dentro de um elemento da classe first 
+    dentro do elemento com id intro*/
+    color: pink; 
+    background-color:gray;
+ }
