@@ -2,7 +2,7 @@ h1{
     color: aqua;
     font-size: 180%;
 }
-#intro{ /*para id, só pode ter um id*/
+#intro p{ /*para id, só pode ter um id*/
     color: blueviolet;
     background-color: black;
 }
