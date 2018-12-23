@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(71, 172, 255);
+}
+nav {
+    padding: 50px 0;
+    min-width: 500px; 
+}
+nav ul {
+    background: linear-gradient(90deg, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.2) 25%, 
+        rgba(255, 255, 255, 0.2) 75%, 
+        rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px; 
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+}
+
+span.border {
+    width: 200px;   height: 150px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: rgb(21, 226, 21);
+    border-radius: 20px;
+    float: left;
+}
+.main {
+    width: 300px;   height: 150px;
+    text-align: center;
+    color: white;
+    display: block;
+    background-color: chartreuse;
+    border-radius: 0 0 20px 20px;
+    float: left;
+}
+.circle {
+    clear: both;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: green;
+    color: white;
+ }
+.shadow {
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: 10px 10px 5px 5px #888888;
+    display: inline-block;
+}
+.shadow1 {
+    margin: 20px;
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: inset 10px 10px 5px #888888,
+        inset -10px -10px 5px #888888,
+        0 0 10px 4px #FF6347, 
+        0 0 10px 30px #FFDAB9, 
+        30px 0 20px 30px #B0E0E6;
+    display: inline-block;
+}
+p::first-line {
+    color: #589432;
+}
+p::-moz-selection {
+    background: #8bc34a;
+    color: #fff;
+}
+.gradiente {
+    float: left;
+    width: 300px; 
+    height: 100px;
+    margin: 4px;
+    color: #FFF;  
+    background: linear-gradient(DeepSkyBlue, Black);
+}
+.trasicao {
+    clear: both;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    background: #32CD32;
+    transition: width 3s;
+    border-radius: 90%;
+}
+.trasicao:hover {
+    width: 250px;
+}
+

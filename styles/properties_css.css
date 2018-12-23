@@ -1,9 +1,10 @@
 body{
     /*background-color: #87CEFA;*/
-    background-image: url("../images/PokecordSpawn.png");
-    background-repeat: no-repeat;
+    background: url("../images/PokecordSpawn.png") right no-repeat;
+    /* background-image: url("../images/PokecordSpawn.png"); */
+    /* background-repeat: no-repeat; */
     background-attachment: fixed;
-    background-position: right;
+    /* background-position: right; */
 }
 h3{
     text-align: center;
@@ -71,4 +72,13 @@ a:link {
 }
 p.cursor {
     cursor: move;
+}
+.trasicao {
+    width: 50px;
+    height: 50px;
+    background: #32CD32;
+    transition: width 3s;
+}
+.trasicao:hover {
+    width: 250px;
 }
