@@ -4,4 +4,4 @@ var e;!function(t,i){"object"==typeof exports&&"object"==typeof module?module.ex
 },{}],"d6sW":[function(require,module,exports) {
 "use strict";var e=t(require("siema"));function t(e){return e&&e.__esModule?e:{default:e}}var n=new e.default({duration:200,easing:"ease-out",loop:!0});document.querySelector(".content__home-slider--left").addEventListener("click",function(){return n.prev()}),document.querySelector(".content__home-slider--right").addEventListener("click",function(){return n.next()});var o=400;document.querySelector("a.welcome__button").addEventListener("click",function(){var e=document.querySelector("header.welcome__header"),t=document.querySelector("div.welcome__container"),n=document.querySelector("body");e.animate([{height:"100vh"},{height:"0vh"}],{duration:o}),t.animate([{opacity:1},{opacity:0}],{duration:o}),window.setTimeout(function(){e.style.height="0vh",t.style.display="none",n.style.overflow="auto"},o)});
 },{"siema":"oaEM"}]},{},["d6sW"], null)
-//# sourceMappingURL=ultrasv/main.aaeb3aa2.js.map
+//# sourceMappingURL=/main.aaeb3aa2.js.map
